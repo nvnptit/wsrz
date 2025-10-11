@@ -1,18 +1,9 @@
 /******************************
 
-脚本功能：Grammarly解锁订阅
-软件版本：2.2.0
-下载地址：http://t.cn/A66x3u4I
-脚本作者：Hausd0rff
-更新时间：2022-07-16
-脚本发布：https://t.me/yqc_123
-问题反馈：https://t.me/yqc_777
-使用声明：⚠️此脚本仅供学习与交流，
-        请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local]
 # > Grammarly解锁订阅
-^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrammarlyPremiumCrack.js
+^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ url script-response-body https://raw.githubusercontent.com/nvnptit/wsrz/main/grammarly.js
 
 [mitm] 
 hostname = subscription.grammarly.com

@@ -3,7 +3,7 @@ Membership unlock for VSCO & 1Blocker & HTTPBot
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+https://raw.githubusercontent.com/nvnptit/wsrz/main/vsco.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -11,8 +11,8 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-request ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
-http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+http-request ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ script-path=https://raw.githubusercontent.com/nvnptit/wsrz/main/vsco.js
+http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ requires-body=1,script-path=https://raw.githubusercontent.com/nvnptit/wsrz/main/vsco.js
 
 [MITM]
 hostname = api.revenuecat.com
@@ -27,7 +27,7 @@ const list = {
 	'1Blocker': { name: 'premium', id: 'blocker.ios.subscription.yearly' }
 };
 const data = {
-	"expires_date": "2030-02-18T07:52:54Z",
+	"expires_date": "2099-02-18T07:52:54Z",
 	"original_purchase_date": "2020-02-11T07:52:55Z",
 	"purchase_date": "2020-02-11T07:52:54Z"
 };

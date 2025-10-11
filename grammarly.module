@@ -1,11 +1,5 @@
 ﻿#!name=Grammarly
 
-#!desc=Unlock Grammarly subscription. grammarly.com
-
-#!homepage=https://whatshub.top
-
-#!author=yqc007
-
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/grammarly.png
 
 
@@ -15,8 +9,7 @@
 hostname = %APPEND% subscription.grammarly.com
 
 
-
 [Script]
 
-Grammarly=type=http-response,pattern=^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrammarlyPremiumCrack.js,requires-body=1
+Grammarly=type=http-response,pattern=^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$,script-path=https://raw.githubusercontent.com/nvnptit/wsrz/main/grammarly.js,requires-body=1
 

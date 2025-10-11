@@ -4,7 +4,7 @@
 
 [Script]
 
-AlohaVPN_Browser=type=http-response,pattern=https://api.alohaprofile.com/v1/profile_info,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/aloha.js
+AlohaVPN_Browser=type=http-response,pattern=https://api.alohaprofile.com/v1/profile_info,requires-body=1,script-path=https://raw.githubusercontent.com/nvnptit/wsrz/main/aloha.js
 
 [MITM]
 
